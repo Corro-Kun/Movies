@@ -14,3 +14,16 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+@media (max-width: 768px){
+    .header{
+        padding: 5px 10px;
+    }
+    .header div{
+        gap: 20px;
+    }
+    .links{
+        display: none;
+        z-index: -1;
+    }
+}

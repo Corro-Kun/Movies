@@ -45,3 +45,9 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
+
+@media (max-width: 1200px){
+    .main{
+        padding: 30px 50px;
+    }
+}

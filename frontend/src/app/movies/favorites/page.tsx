@@ -1,4 +1,4 @@
-import ByFavorite from "@/components/ByFavorite";
+import ByFavorite from "@/components/pages/movies/favorites/ByFavorite";
 import Select from "@/components/shared/ListGenres";
 import Search from "@/components/shared/Search";
 import style from "@/styles/pages/genres.module.css";

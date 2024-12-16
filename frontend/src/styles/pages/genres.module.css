@@ -15,3 +15,16 @@
     width: calc(100% - 300px);
     padding: 20px 30px;
 }
+
+@media (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
+    .filter{
+        width: 100%;
+        border-radius: 0;
+    }
+    .movie{
+        width: 100%;
+    }
+}

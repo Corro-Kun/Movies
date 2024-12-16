@@ -42,3 +42,15 @@
 .list::-webkit-scrollbar-track{
     display: none;
 }
+
+@media (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
+    .filter{
+        width: 100%;
+    }
+    .movies{
+        width: 100%;
+    }
+}

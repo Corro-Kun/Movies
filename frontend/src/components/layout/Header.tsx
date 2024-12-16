@@ -11,9 +11,11 @@ export default function Header(){
                 <Link href="/" >
                     <Image src="/logo.svg" alt="logo" width={164} height={50}/>
                 </Link>
-                <Link href={paths.genre.getHref(878)} >Popular</Link>
-                <Link href={paths.favorites.getHref()} >Favorites</Link>
-            </div>
+                <div className={style.links} >
+                    <Link href={paths.genre.getHref(878)} >Popular</Link>
+                    <Link href={paths.favorites.getHref()} >Favorites</Link>
+                </div>
+           </div>
             <Profile />
         </header>
     );
