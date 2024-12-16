@@ -1,0 +1,46 @@
+.main{
+    position: relative;
+}
+.select{
+    display: flex;
+    padding: 15px 20px;
+    background-color: #1C1C1C;
+    cursor: pointer;
+    align-items: center;
+}
+.select p{
+    width: 95%;
+}
+.list{
+    margin-top: 5px;
+    display: flex;
+    padding: 5px 10px;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #1C1C1C;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.list::-webkit-scrollbar {
+    background: transparent;
+    height: 10px;
+    width: 8px;
+}
+.list::-webkit-scrollbar-thumb{
+    background-color: var(--foreground);
+    border-radius: 4px;
+}
+.list::-webkit-scrollbar-track {
+    background: transparent;
+}
+.list a{
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.list a:hover{
+    background-color: var(--background);
+}

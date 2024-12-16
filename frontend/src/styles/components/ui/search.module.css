@@ -1,0 +1,22 @@
+.search{
+    display: flex;
+    background-color: #1C1C1C;
+    border-bottom: 1px solid #454444;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+    align-items: center;
+}
+.search input{
+    width: 85%;
+    padding: 15px 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+.search input::placeholder{
+    color: white;
+}
+.search img{
+    cursor: pointer;
+}

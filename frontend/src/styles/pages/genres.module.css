@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    width: 100%;
+}
+.filter{
+    display: flex;
+    padding: 20px;
+    width: 300px;
+    gap: 20px;
+    background-color: #262626;
+    flex-direction: column;
+    border-radius: 0 0 10px 0;
+}
+.movie{
+    width: calc(100% - 300px);
+    padding: 20px 30px;
+}

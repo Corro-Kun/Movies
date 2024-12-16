@@ -1,0 +1,30 @@
+.main{
+    cursor: pointer;
+}
+.box{
+    position: relative;
+}
+.config{
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    top: 35;
+    right: -34;
+    width: 100px;
+    background-color: #1C1C1C;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.config button{
+    background: transparent;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: var(--foreground);
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.config button:hover{
+    background-color: var(--background);
+}

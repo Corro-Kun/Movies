@@ -1,0 +1,29 @@
+.bg{
+    fill: none;
+    stroke: #24341C;
+    stroke-width: 8;
+    stroke-dasharray: 101 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+.circle{
+    fill: none;
+    stroke: #4DA04E;
+    stroke-width: 8;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+.center{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.center span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.4rem;
+    transform: translate(-50%, -55%);
+    font-weight: bold;
+}
